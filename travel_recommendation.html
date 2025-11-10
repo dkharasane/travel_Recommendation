@@ -1,0 +1,44 @@
+<!DOCTTYPE html>
+<html>
+    <head>
+       <title>TravelBloom</title> 
+       <link rel="stylesheet" href="style.css">
+    </head>
+</body>
+   <nav class="navbar">
+      <div class="logo"> 
+          <img src="travel_bloom.png" alt="TravelBloom logo" class="logo-img">
+             TraveBloom
+      </div>
+      <ul class="nav-links">
+        <li>
+            <a href=" travel_recommendation.html">Home</a>
+        </li><li><a href=" about_us.html">About Us</a></li>
+        <li>
+            <a href=" contact.html">Contact</a>
+        </li>
+      </ul>
+      <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Enter a destination keyword" />
+        <img src="search_bar_icon.png" alt="Search" class="search-icon">
+        <button id="searchBtn" onClick="searchRecommendations()">
+         Search
+        </button>
+        <button id="clearBtn" onClick="clearResults()">Clear</button>
+      </div>
+   </nav> 
+
+   <header class="header">
+       <h1>EXPLORE<br>DREAM<br>DESTINATION</h1>
+       <p1>IT encourage exploration of unfamiliar<br>
+        terriotories, embracing diverse culture and<br>
+        landscapes, while pursuing the desired<br>
+         destination that captivates the heard and<br>
+         igintes a sense of wonder
+       </p>
+   <header> 
+
+    <section id="results" class="result-section"></section>
+    <script src="travel_recommendation.js"></script>
+</body>
+</html>
